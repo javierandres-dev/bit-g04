@@ -8,5 +8,10 @@ Descripción de mi projecto ...
 * Me gusta
   - Escuchar música
   - Patinar
+- Comidas favoritas
+  * Hamburguesa
+  * Pasta
+  * Pizza
+  * Brocoli
 
 ###### Autor...
