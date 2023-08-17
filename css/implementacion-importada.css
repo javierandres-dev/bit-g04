@@ -1,0 +1,6 @@
+/* @import 'implementacion-externa.css'; */
+@import url('implementacion-externa.css');
+
+span {
+  color: green;
+}

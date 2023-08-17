@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Soy un comentario css */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .caja {
+        border: 1px solid black;
+      }
+      .padre {
+        border-color: blue;
+        width: 300px;
+        height: 300px;
+        margin: 50px;
+        padding: 25px;
+      }
+      .hijo {
+        border-color: red;
+        width: 150px;
+        height: 150px;
+      }
+      .tipo-linea {
+        display: inline;
+      }
+      .tipo-bloque {
+        display: block;
+      }
+      h1,
+      h3,
+      .texto-verde {
+        color: green;
+      }
+      .contenedor {
+        border: 1px solid green;
+        width: 300px;
+        height: 150px;
+        font-size: 64px;
+      }
+      .parrafo {
+        color: purple;
+      }
+      .parrafo::first-line {
+        color: yellowgreen;
+      }
+      .div-pseudo {
+        color: brown;
+      }
+      .div-pseudo:hover {
+        color: orange;
+      }
+      :root {
+        --color-primario: rgb(248, 5, 167);
+        --color-secundario: blue;
+      }
+      .primaria {
+        background-color: var(--color-primario);
+        color: var(--color-secundario);
+      }
+      .secundaria {
+        background-color: var(--color-secundario);
+        color: var(--color-primario);
+      }
+      /* Posicionamiento
+      Top, Left, Bottom, Right, z-index
+      */
+      .contenedor-padre {
+        border: 2px solid blue;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        /*
+        position: fixed;
+        */
+      }
+      .contenedor-hijo {
+        border: 2px solid red;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: -1;
+      }
+      .contenedor-hermano {
+        border: 2px solid orange;
+        background-color: orange;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Posicionamiento -->
+    <div class="contenedor-padre">
+      <div class="contenedor-hijo"></div>
+      <div class="contenedor-hermano"></div>
+    </div>
+    <!-- Propiedades personalizadas -->
+    <hr />
+    <div class="primaria">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div class="secundaria">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <!-- Pseudo clases -->
+    <hr />
+    <div class="div-pseudo">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <!-- Pseudo elementos -->
+    <hr />
+    <p class="parrafo">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ea
+      necessitatibus? Harum quam dolores, exercitationem nisi animi illo qui
+      nemo dolore cum corporis veniam quaerat ratione praesentium excepturi quos
+      distinctio?
+    </p>
+    <!-- Reglas -->
+    <hr />
+    <div class="contenedor">Contenido</div>
+    <!-- Agrupación de selectores -->
+    <hr />
+    <h1>título nivel 1</h1>
+    <h2>título nivel 2</h2>
+    <h3>título nivel 3</h3>
+    <p>soy un <span class="texto-verde">párrafo</span></p>
+    <!-- Tipo de elemento -->
+    <hr />
+    <div>
+      <div class="tipo-linea">Elemento tipo bloque</div>
+      <div class="tipo-linea">Elemento tipo bloque</div>
+    </div>
+    <hr />
+    <div>
+      <span class="tipo-bloque">Elemento tipo línea</span>
+      <span class="tipo-bloque">Elemento tipo línea</span>
+    </div>
+    <!-- Modelo de caja -->
+    <hr />
+    <div class="caja padre">
+      <div class="caja hijo"></div>
+    </div>
+  </body>
+</html>
