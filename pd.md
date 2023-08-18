@@ -28,6 +28,8 @@
 - ¿Qué es alojamiento de control de versiones?
 - ¿Qué es repositorio?
 - ¿Qué es una rama?
+- ¿Qué es MARKDOWN?
+- ¿Qué es archivo README?
 - ¿Qué es HTML?
 - ¿Qué es etiqueta?
 - ¿Qué es metadata?
