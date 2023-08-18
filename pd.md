@@ -8,11 +8,11 @@
 - ¿Qué es interfaz de línea de comandos?
 - ¿Qué es internet?
 - ¿Qué es web?
-- ¿Qué es un navegador web?
-- ¿Qué es una página web?
-- ¿Qué es un sitio web?
-- ¿Qué es una aplicación web?
-- ¿Qué es un buscador web?
+- ¿Qué es navegador web?
+- ¿Qué es página web?
+- ¿Qué es sitio web?
+- ¿Qué es aplicación web?
+- ¿Qué es buscador web?
 - ¿Qué es desarrollo web?
 - ¿Qué es modelo cliente - servidor?
 - ¿Qué pasa cuando navego a: “https://bit.institute”?
@@ -27,9 +27,9 @@
 - ¿Qué es sistema de control de versiones?
 - ¿Qué es alojamiento de control de versiones?
 - ¿Qué es repositorio?
-- ¿Qué es una rama?
+- ¿Qué es rama?
 - ¿Qué es MARKDOWN?
-- ¿Qué es archivo README?
+- ¿Qué es README.md?
 - ¿Qué es HTML?
 - ¿Qué es etiqueta?
 - ¿Qué es metadata?
@@ -37,12 +37,12 @@
 - ¿Qué es accesibilidad?
 - ¿Qué es SEO?
 - ¿Qué es CSS?
-- ¿Qué implementar?
+- ¿Qué es implementar?
 - ¿Qué es regla?
 - ¿Qué es especificidad?
 - ¿Qué es selector?
 - ¿Qué es agrupación de selectores?
-- ¿Qué es el modelo de caja?
+- ¿Qué es modelo de caja?
 - ¿Qué es unidad?
 - ¿Qué es pseudo elemento?
 - ¿Qué es pseudo clase?
