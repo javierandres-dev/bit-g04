@@ -11,14 +11,13 @@ Fecha de finalización: 2023/08/31
 - :open_file_folder: css
 - :open_file_folder: javascript
 ---
-### [Página del curso](https://javierandres-dev.github.io/bit-repo_04/)
----
 ### Proyectos
-1. Mi glosario (Requerido)
-Proyecto web donde dará su respuesta a cada una de las [preguntas dadas](pd.md).
-
-2. Calculadora básica (Opcional)
+1. Mi glosario (Requerido)  
+Proyecto web donde dará su respuesta a cada una de las [preguntas dadas](pd.md).  
+2. Calculadora básica (Opcional)  
 Proyecto web donde un usuario podrá realizar operaciones dando dos números.
+---
+### [Página del curso](https://javierandres-dev.github.io/bit-repo_04/)
 ---
 ## Software Developer
 Built by [Javi](https://javierandres.dev) :copyright: 2023  
