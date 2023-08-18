@@ -51,3 +51,9 @@
 - ¿Qué es responsivo?
 - ¿Qué es adaptativo?
 - ¿Qué es primer enfoque?
+- ¿Qué es interfaz de usuario?
+- ¿Qué es experiencia de usuario?
+- ¿Qué es solución de problemas?
+- ¿Qué es lógica?
+- ¿Qué es algoritmo?
+- ¿Qué es metodología de desarrollo?
