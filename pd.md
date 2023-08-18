@@ -6,47 +6,46 @@
 - ¿Qué es estructura de archivos y carpetas?
 - ¿Qué es interfaz gráfica?
 - ¿Qué es interfaz de línea de comandos?
-- ¿Qué es sistema de control de versiones?
-- ¿Qué es alojamiento de control de versiones?
-- ¿Qué es repositorio?
-- ¿Qué es editor de código?
 - ¿Qué es internet?
 - ¿Qué es web?
-- ¿Qué es modelo cliente - servidor?
-- ¿Qué pasa cuando navego a: “https://bit.institute”?
 - ¿Qué es un navegador web?
 - ¿Qué es una página web?
 - ¿Qué es un sitio web?
 - ¿Qué es una aplicación web?
 - ¿Qué es un buscador web?
 - ¿Qué es desarrollo web?
+- ¿Qué es modelo cliente - servidor?
+- ¿Qué pasa cuando navego a: “https://bit.institute”?
+- ¿Qué es editor de código?
 - ¿Qué es sintaxis?
-- ¿Qué son los comentarios?
-- ¿Qué son las palabras clave?
-- ¿Qué es la herencia?
-- ¿Qué es la sobreescritura?
+- ¿Qué es comentario?
+- ¿Qué es palabra clave?
+- ¿Qué es herencia?
+- ¿Qué es sobreescritura?
 - ¿Qué son las convenciones?
 - ¿Qué son las buenas prácticas?
+- ¿Qué es sistema de control de versiones?
+- ¿Qué es alojamiento de control de versiones?
+- ¿Qué es repositorio?
+- ¿Qué es una rama?
 - ¿Qué es HTML?
-- ¿Qué es la metadata?
-- ¿Qué categorías de etiquetas HTML conoce?
+- ¿Qué es etiqueta?
+- ¿Qué es metadata?
 - ¿Qué es jerarquía?
-- ¿Qué es SEO?
 - ¿Qué es accesibilidad?
+- ¿Qué es SEO?
 - ¿Qué es CSS?
-- ¿Qué maneras de implementar CSS conoce?
-- ¿Qué es una regla?
-- ¿Qué tipos de regla conoce?
-- ¿Qué es la especificidad?
-- ¿Qué es un selector?
-- ¿Qué es la agrupación de selectores?
+- ¿Qué implementar?
+- ¿Qué es regla?
+- ¿Qué es especificidad?
+- ¿Qué es selector?
+- ¿Qué es agrupación de selectores?
 - ¿Qué es el modelo de caja?
-- ¿Qué tipos de unidades conoce?
-- ¿Qué son los pseudo elementos?
-- ¿Qué son las pseudo clases?
-- ¿Qué son las propiedades personalizadas?
+- ¿Qué es unidad?
+- ¿Qué es pseudo elemento?
+- ¿Qué es pseudo clase?
+- ¿Qué es propiedad personalizada?
 - ¿Qué es layout?
 - ¿Qué es responsivo?
 - ¿Qué es adaptativo?
-- ¿Qué es el primer enfoque?
-- ¿Qué tipos de primer enfoque conoce?
+- ¿Qué es primer enfoque?
