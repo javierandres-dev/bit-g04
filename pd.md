@@ -1,0 +1,52 @@
+- ¿Qué es dispositivo?
+- ¿Qué es hardware?
+- ¿Qué es software?
+- ¿Qué es sistema operativo?
+- ¿Qué es aplicación?
+- ¿Qué es estructura de archivos y carpetas?
+- ¿Qué es interfaz gráfica?
+- ¿Qué es interfaz de línea de comandos?
+- ¿Qué es sistema de control de versiones?
+- ¿Qué es alojamiento de control de versiones?
+- ¿Qué es repositorio?
+- ¿Qué es editor de código?
+- ¿Qué es internet?
+- ¿Qué es web?
+- ¿Qué es modelo cliente - servidor?
+- ¿Qué pasa cuando navego a: “https://bit.institute”?
+- ¿Qué es un navegador web?
+- ¿Qué es una página web?
+- ¿Qué es un sitio web?
+- ¿Qué es una aplicación web?
+- ¿Qué es un buscador web?
+- ¿Qué es desarrollo web?
+- ¿Qué es sintaxis?
+- ¿Qué son los comentarios?
+- ¿Qué son las palabras clave?
+- ¿Qué es la herencia?
+- ¿Qué es la sobreescritura?
+- ¿Qué son las convenciones?
+- ¿Qué son las buenas prácticas?
+- ¿Qué es HTML?
+- ¿Qué es la metadata?
+- ¿Qué categorías de etiquetas HTML conoce?
+- ¿Qué es jerarquía?
+- ¿Qué es SEO?
+- ¿Qué es accesibilidad?
+- ¿Qué es CSS?
+- ¿Qué maneras de implementar CSS conoce?
+- ¿Qué es una regla?
+- ¿Qué tipos de regla conoce?
+- ¿Qué es la especificidad?
+- ¿Qué es un selector?
+- ¿Qué es la agrupación de selectores?
+- ¿Qué es el modelo de caja?
+- ¿Qué tipos de unidades conoce?
+- ¿Qué son los pseudo elementos?
+- ¿Qué son las pseudo clases?
+- ¿Qué son las propiedades personalizadas?
+- ¿Qué es layout?
+- ¿Qué es responsivo?
+- ¿Qué es adaptativo?
+- ¿Qué es el primer enfoque?
+- ¿Qué tipos de primer enfoque conoce?
