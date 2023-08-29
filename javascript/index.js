@@ -1,10 +1,121 @@
 //console.log('Works!');
+
+/*
+1. Importaciones
+2. Constantes y variables
+3. Sentencias
+4. Funciones
+*/
+
 /*
 Modo estricto
 */
 'use strict';
 //nombre = 'pepita';
 //console.log(nombre);
+
+/*
+Rest argumentos
+*/
+function logNombres(...nombres) {
+  console.log(nombres);
+}
+
+//logNombres('luisa');
+//logNombres('luisa', 'daniel', 'pepita');
+
+/*
+Spread operator
+*/
+const arr1 = ['a', 'b', 'c'];
+const arr2 = ['d', 'e', 'f'];
+const arrCombinado = [...arr1, ...arr2];
+//console.log(arrCombinado);
+
+/*
+Destructurar
+*/
+const nevera = ['queso', 'lechuga', 'jamón', 'hielo', 'jugo', 'leche'];
+const [q, l, j] = nevera;
+//console.log(q, l, j);
+
+const objNevera = {
+  queso: 'tajado',
+  leche: 'entera',
+  hielo: 'triangulitos',
+  jamon: 'de pavo',
+  lechuga: 'tiritas',
+  jugo: 'naranja',
+};
+objNevera.jamon = 'de pollo';
+objNevera['queso'] = 'rayado';
+
+const { queso, lechuga, jamon } = objNevera;
+//console.log(queso, lechuga, jamon);
+
+/*
+Funciones
+*/
+//const retornoFuncion = funcion();
+//console.log(retornoFuncion);
+
+function funcion() {
+  console.log('soy una función');
+  console.log('this en una función: ', this);
+}
+
+const funcionFlecha = () => {
+  console.log('soy una función flecha');
+  console.log('this en una función flecha: ', this);
+};
+
+//const retornoFuncionFlecha = funcionFlecha();
+//console.log(retornoFuncionFlecha);
+
+function funcionConListaDeParametros(param1 = 'valor por defecto') {
+  console.log('param1:', param1);
+}
+
+//funcionConListaDeParametros('soy argumento o valor');
+//funcionConListaDeParametros();
+
+/*
+Estrucuras de datos
+*/
+let arreglo = [];
+arreglo = new Array();
+arreglo = ['elemento1', 'elemento2', 'elementoN'];
+//console.log(arreglo);
+//console.log(typeof arreglo);
+//console.log(arreglo instanceof Array);
+
+let objeto = new Object();
+objeto = {
+  llave: 'valor',
+  nombre: 'pepita',
+  apellido: 'pérez',
+  saludar: function () {
+    console.log('hola');
+  },
+};
+//console.log(objeto);
+//console.log(objeto.nombre);
+//console.log(objeto['apellido']);
+//console.log(objeto.saludar());
+//console.log(typeof objeto);
+//console.log(objeto instanceof Object);
+
+class ClasePersona {
+  constructor(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
+}
+
+const persona1 = new ClasePersona('pepita', 'pérez');
+//console.log(persona1);
+const persona2 = new ClasePersona('john', 'doe');
+//console.log(persona2);
 
 /*
 Control de flujo
@@ -38,6 +149,22 @@ switch (valorDado) {
     //console.log('no está logueado');
     break;
 }
+
+for (let i = 0; i < 4; i++) {
+  //console.log('for... iteración', i);
+}
+
+let i = 0;
+while (i < 4) {
+  //console.log('while... iteración', i);
+  i++;
+}
+
+i = 10;
+do {
+  //console.log('do...while... iteración', i);
+  i++;
+} while (i < 4);
 
 // Truthy and Falsy
 let verdadero = true;
@@ -181,45 +308,3 @@ const variableTipoConstante = null;
 //console.log(variableVar);
 //console.log(variableLet);
 //console.log(variableTipoConstante);
-
-/*
-Pedir nombre y edad al usuario y responder si es o no es mayor de edad.
-si se llama Pepita y es mayor de edad permitir ingreso a sala de espera 1,
-si se llama Pepita y es menor de edad permitir ingreso a sala de espera 2,
-si no se llama Pepita pero es mayor de edad permitir ingreso a sala de espera 3,
-sino dirigir a la sala de espera general.
-*/
-/*
-const nombre = prompt('Ingrese su nombre: ');
-const edad = parseInt(prompt('Ingrese su edad: '));
-let esMayorDeEdad = false;
-if (edad >= 18) {
-  alert(`${nombre} es mayor de edad`);
-  esMayorDeEdad = true;
-} else {
-  alert(`${nombre} es menor de edad`);
-}
-const esPepita = nombre === 'pepita' ? true : false;
-const caso =
-  esPepita && esMayorDeEdad
-    ? '1'
-    : esPepita && !esMayorDeEdad
-    ? '2'
-    : !esPepita && esMayorDeEdad
-    ? '3'
-    : '4';
-switch (caso) {
-  case '1':
-    alert(`${nombre} pasar a la sala de espera ${caso}`);
-    break;
-  case '2':
-    alert(`${nombre} pasar a la sala de espera ${caso}`);
-    break;
-  case '3':
-    alert(`${nombre} pasar a la sala de espera ${caso}`);
-    break;
-  default:
-    alert(`${nombre} pasar a la sala de espera general`);
-    break;
-}
-*/
