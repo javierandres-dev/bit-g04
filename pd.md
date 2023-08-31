@@ -57,3 +57,48 @@
 - ¿Qué es lógica?
 - ¿Qué es algoritmo?
 - ¿Qué es metodología de desarrollo?
+- ¿Qué es lenguaje de programación?
+- ¿Qué es motor de JavaScript?
+- ¿Qué es implementar JavaScript?
+- ¿Qué es un script?
+- ¿Qué es etiqueta script?
+- ¿Qué es etiqueta noscript?
+- ¿Qué es el objeto window?
+- ¿Qué es interacción?
+- ¿Qué es declaración?
+- ¿Qué es variable?
+- ¿Qué es constante?
+- ¿Qué es ámbito de las variables?
+- ¿Qué es modo estricto?
+- ¿Qué es tipos de dato primitivos?
+- ¿Qué es operador typeof?
+- ¿Qué es conversión de tipos?
+- ¿Qué es operadores?
+- ¿Qué es control de flujo?
+- ¿Qué es estructuras de control?
+- ¿Qué es "Truthy" y "Falsy"?
+- ¿Qué es estructura de datos?
+- ¿Qué es arreglo?
+- ¿Qué es objeto?
+- ¿Qué es operador instanceof?
+- ¿Qué es funcion?
+- ¿Qué es parámetro?
+- ¿Qué es argumento?
+- ¿Qué es retorno?
+- ¿Qué es hoisting?
+- ¿Qué es "This"?
+- ¿Qué es Scope?
+- ¿Qué es destructurar?
+- ¿Qué es rest argumentos?
+- ¿Qué es operador Spread?
+- ¿Qué es sincrónico?
+- ¿Qué es asíncrono?
+- ¿Qué es promesa?
+- ¿Qué es manejo de errores?
+- ¿Qué es API?
+- ¿Qué es web APIs?
+- ¿Qué es evento?
+- ¿Qué es IIFE
+- ¿Qué es JSON?
+- ¿Qué es web storage API?
+- ¿Qué es modularización?
