@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Nataly Reyes",
+    "photo": "",
+    "web": "natarey.github.io/bit-2023_semillero",
+    "repo": "https://github.com/NataRey"
+  },
+  {
+    "id": "2",
+    "name": "Luisa Castaño",
+    "photo": "",
+    "web": "https://luisacastano40.github.io/bit-2023_semillero",
+    "repo": "https://github.com/LuisaCastano40"
+  },
+  {
+    "id": "3",
+    "name": "Daniel Guevara",
+    "photo": "",
+    "web": "https://danguevara07.github.io/bit-2023_semillero",
+    "repo": "https://github.com/DanGuevara07"
+  }
+]
