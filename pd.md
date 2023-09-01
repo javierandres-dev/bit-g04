@@ -100,5 +100,7 @@
 - ¿Qué es evento?
 - ¿Qué es IIFE
 - ¿Qué es JSON?
+- ¿Qué es serialización?
+- ¿Qué es deserialización?
 - ¿Qué es web storage API?
 - ¿Qué es modularización?
