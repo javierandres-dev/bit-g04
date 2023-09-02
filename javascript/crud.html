@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .btn {
+        width: 8rem;
+padding: 0.5rem 1rem;
+      }
+      .btn-update {background-color: lightblue;}
+      .btn-delete {background-color: lightsalmon;}
+    </style>
+    <title>CRUD</title>
+  </head>
+  <body>
+    <h1>CRUD <span>Create Read Update Delete</span></h1>
+    <hr />
+    <form id="form">
+      <input type="text" name="question" placeholder="Pregunta...">
+      <br>
+      <input type="text" name="answer" placeholder="Respuesta...">
+      <br>
+      <button type="submit" name="submit" class="btn">Agregar <span style='font-size:20px;'>&#10133;</span></li></button>
+    </form>
+    <ol id="list"></ol>
+    <script>
+      const d = document,
+        $list = d.getElementById('list'), $form = d.getElementById("form"),pprr = [
+        { pregunta: '¿nombre?', respuesta: 'pepita' },
+        { pregunta: '¿apellido?', respuesta: 'pérez' },
+      ];
+
+      let editId = false
+
+      d.addEventListener("DOMContentLoaded", ()=>{
+        showItems()
+        eventListeners()
+      })
+
+      function eventListeners() {
+        $form.addEventListener("submit", handlesubmit)
+      }
+
+      function handlesubmit(e) {
+        e.preventDefault();
+        const question = $form.question.value
+        const answer = $form.answer.value
+        if (editId) {
+          pprr[parseInt(editId.id)] = { pregunta: question, respuesta: answer}
+          editId = false
+          textSubmit()
+        }else {
+          pprr.push({ pregunta: question, respuesta: answer});
+        }
+        showItems()
+        $form.reset()
+      }
+
+      function showItems() {
+        let items = '';
+      for (let i = 0; i < pprr.length; i++) {
+        items += `
+        <li id=${i}>${pprr[i].pregunta}: ${pprr[i].respuesta}
+          <button class="btn btn-update">Editar</button>
+          <button class="btn btn-delete">Eliminar</button>
+        </li>`;
+      }
+      $list.innerHTML = items;
+      const $btnUpdate  = d.querySelectorAll('.btn-update');
+      const $btnDelete  = d.querySelectorAll('.btn-delete');
+
+      $btnUpdate.forEach($btn => {
+        $btn.addEventListener("click", ()=>{
+          handleUpdate($btn.parentNode.id)
+        })
+      })
+
+      $btnDelete.forEach($btn => {
+        $btn.addEventListener("click", ()=>{
+          handleDelete($btn.parentNode.id)
+        })
+      })
+      }
+
+      function handleUpdate(id) {
+        editId = {id}
+        const current = { pregunta: pprr[id].pregunta, respuesta: pprr[id].respuesta }
+        $form.question.value = current.pregunta
+        $form.answer.value = current.respuesta
+        textSubmit()
+      }
+
+      function handleDelete(id) {
+        pprr.splice(id, 1)
+        showItems()
+      }
+
+      function textSubmit() {
+        $form.submit.textContent = editId ? "Guardar cambios" : "Agregar"
+      }
+    </script>
+  </body>
+</html>
