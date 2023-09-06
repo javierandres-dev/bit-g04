@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+.container {
+  background-color: #fff;
+  padding: 2rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.card {
+  width: 100%;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0 1rem #8e7da7;
+  border: 0.1rem solid #f0e6ef;
+}
+.card figure {
+  margin: 0;
+}
+.card figure img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+.card figure figcaption {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #464655;
+}
+.card nav {
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.card nav a {
+  color: #8e7da7;
+  text-decoration: none;
+}
+.card nav a:hover {
+  color: #9c89b8;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 4rem 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .card {
+    max-width: 25rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  .card {
+    max-width: 30rem;
+  }
+}
