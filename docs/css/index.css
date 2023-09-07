@@ -75,6 +75,7 @@ body {
   }
   .card {
     width: 45%;
+    height: max-content;
   }
 }
 @media screen and (min-width: 992px) {
